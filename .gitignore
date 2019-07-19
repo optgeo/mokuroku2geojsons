@@ -1,3 +1,5 @@
+*.geojsons
+
 # Logs
 logs
 *.log
