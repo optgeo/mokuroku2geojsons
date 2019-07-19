@@ -1,4 +1,5 @@
 *.geojsons
+*.mbtiles
 
 # Logs
 logs

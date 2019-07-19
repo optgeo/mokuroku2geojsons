@@ -1,6 +1,6 @@
 # mokuroku2geojsons
 ## background
-Given mokuroku, 
+Given mokuroku, create GeoJSONS (RFC 8142 - GeoJSON Text Sequences)
 
 ## prerequisite
 - Node
