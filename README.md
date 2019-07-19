@@ -11,6 +11,8 @@ Given mokuroku, create GeoJSONS (RFC 8142 - GeoJSON Text Sequences)
 ## install
 ```console
 git clone git@github.com:optgeo/mokuroku2geojsons
+cd mokuroku2geojsons
+yarn
 vi config/default.hjson
 ```
 
