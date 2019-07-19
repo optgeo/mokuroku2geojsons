@@ -35,7 +35,9 @@ const mokurokuQueue = new Queue(async (t, cb) => {
       })
     })
     .catch(e => {
-      console.error(`${url}: ${e}`)
+      const msg = `${url}: ${e}`
+      console.error(msg)
+      cb(msg, t)
     })
 }, {
   maxRetries: 10,
@@ -53,7 +55,9 @@ const tileQueue = new Queue(async (url, cb) => {
       cb(null, url)
     })
     .catch(e => {
-      console.error(`${url}: ${e}`)
+      const msg = `${url}: ${e}`
+      console.error(msg)
+      cb(msg, t)
     })
 }, {
   concurrent: 10,
