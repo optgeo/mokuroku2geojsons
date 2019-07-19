@@ -57,7 +57,7 @@ const tileQueue = new Queue(async (url, cb) => {
     .catch(e => {
       const msg = `${url}: ${e}`
       console.error(msg)
-      cb(msg, t)
+      cb(msg, url)
     })
 }, {
   concurrent: 10,
